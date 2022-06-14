@@ -12,5 +12,7 @@ namespace Eterna_Template.DAL
 
         public DbSet<Card> Cards { get; set;}
 
+        public DbSet<Setting> Settings { get; set; }
+
     }
 }
